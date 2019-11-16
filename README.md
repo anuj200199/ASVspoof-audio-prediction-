@@ -13,16 +13,48 @@ Apply Normalization to the data after extracting features.
 After extracting the features, four different experiments were conducted.
 
 Experiment 1: Input static,velocity, acceleration features or combinations of these attribiutes for each of MFCC, LFCC, RFCC ad IMFCC features to the Artificial Neural Network and their accuracy and EER was calculated.
-		
-Scenario&nbsp;	Features&nbsp;	                No. of coefficients<br>
-A	        Static only	                	13<br>
-B	        Velocity (Δ) only	     		13<br>
-C	        Acceleration (ΔΔ) only	    		13<br>
-AB	      	Static + Δ	                	26<br>
-AC	      	Static + ΔΔ	                	26<br>
-BC	      	Δ + ΔΔ                      		26<br>
-ABC	      	Static + Δ + ΔΔ	            		39<br>
 
+<table>
+	<tr>
+	<th>Scenario</th>
+	<th>Features</th>
+	<th>No. of coefficients</th>
+	</tr>
+	<td>A</td>
+	<td>Static only</td>
+	<td>13</td>
+	</tr>
+	<tr>
+	<td>B</td>
+	<td>Velocity (Δ) only</td>
+	<td>13</td>
+	</tr>
+	<tr>
+	<td>C</td>
+	<td>Acceleration (ΔΔ) only</td>
+	<td>13</td>
+	</tr>
+	<tr>
+	<td>AB</td>
+	<td>Static + Δ</td>
+	<td>26</td>
+	</tr>
+	<tr>
+	<td>AC</td>
+	<td>Static + ΔΔ</td>
+	<td>26</td>
+	</tr>
+	<tr>
+	<td>BC</td>
+	<td>Δ + ΔΔ </td>
+	<td>26</td>
+	</tr>
+	<tr>
+	<td>ABC</td>
+	<td>Static + Δ + ΔΔ </td>
+	<td>29</td>
+	</tr>
+</table>
 
 The results with lowest Equal Error Rate(eer) were selected for each feature(MFCC,IMFCC,RFCC,LFCC) and used in the next experiment
 
