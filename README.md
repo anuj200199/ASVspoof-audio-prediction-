@@ -36,6 +36,10 @@ Experiment 4: Using the data seperated in Experiment 3, train and test on differ
 # Method 2
 In this case, create spectograms of audio files and input them to a Convolutional Nueral Network. You can either create your own CNN or use predefined models like ResNet to train.
 
+Spectogram are shown in the figure below
+![Spectogram](https://user-images.githubusercontent.com/51110977/68996155-5750ac00-08bc-11ea-98ff-571020d92ef3.jpg)
+
+
 
 
 
