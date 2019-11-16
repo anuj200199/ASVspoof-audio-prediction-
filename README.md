@@ -14,14 +14,14 @@ After extracting the features, four different experiments were conducted.
 
 Experiment 1: Input static,velocity, acceleration features or combinations of these attribiutes for each of MFCC, LFCC, RFCC ad IMFCC features to the Artificial Neural Network and their accuracy and EER was calculated.
 		
-Scenario	Features	                No. of coefficients
-A	        Static only	                13
-B	        Velocity (Δ) only	          13
-C	        Acceleration (ΔΔ) only	    13
-AB	      Static + Δ	                26
-AC	      Static + ΔΔ	                26
-BC	      Δ + ΔΔ                      26
-ABC	      Static + Δ + ΔΔ	            39
+Scenario	Features	                No. of coefficients<br>
+A	        Static only	                	13<br>
+B	        Velocity (Δ) only	     		13<br>
+C	        Acceleration (ΔΔ) only	    		13<br>
+AB	      	Static + Δ	                	26<br>
+AC	      	Static + ΔΔ	                	26<br>
+BC	      	Δ + ΔΔ                      		26<br>
+ABC	      	Static + Δ + ΔΔ	            		39<br>
 
 
 The results with lowest Equal Error Rate(eer) were selected for each feature(MFCC,IMFCC,RFCC,LFCC) and used in the next experiment
@@ -34,9 +34,8 @@ Experiment 4: Using the data seperated in Experiment 3, train and test on differ
 
 
 # Method 2
-In this case, create spectograms of audio files and input them to a Convolutional Nueral Network. You can either create your own CNN or use predefined models like ResNet to train.
+In this case, create spectograms of audio files and input them to a Convolutional Nueral Network. You can either create your own CNN or use predefined models like ResNet to train. Spectogram are shown in the figure below.<br><br>
 
-Spectogram are shown in the figure below
 ![Spectogram](https://user-images.githubusercontent.com/51110977/68996155-5750ac00-08bc-11ea-98ff-571020d92ef3.jpg)
 
 
