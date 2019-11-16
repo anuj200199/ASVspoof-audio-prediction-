@@ -14,7 +14,7 @@ After extracting the features, four different experiments were conducted.
 
 Experiment 1: Input static,velocity, acceleration features or combinations of these attribiutes for each of MFCC, LFCC, RFCC ad IMFCC features to the Artificial Neural Network and their accuracy and EER was calculated.
 		
-Scenario	Features	                No. of coefficients<br>
+Scenario&nbsp;	Features&nbsp;	                No. of coefficients<br>
 A	        Static only	                	13<br>
 B	        Velocity (Δ) only	     		13<br>
 C	        Acceleration (ΔΔ) only	    		13<br>
